@@ -7,5 +7,3 @@ if len(sys.argv) < 2:
 scores = [float(s) for s in sys.argv[1:]]
 print("Sum:", sum(scores))
 print("Average:", sum(scores) / len(scores))
-print("Maximum:", max(scores))
-print("Minimum:", min(scores))
